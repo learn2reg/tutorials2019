@@ -11,7 +11,7 @@ Medical image registration has been a cornerstone in the research fields of medi
 
 ## Label-supervised registratopm
 ### [Weakly-supervised Registration][weakly_supervised_registration]
-### ROI-Supervised Registration
+** Yipeng to add lilnk to Kaggle?
 References:
 ...
 
