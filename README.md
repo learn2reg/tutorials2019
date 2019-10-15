@@ -6,17 +6,18 @@ Medical image registration has been a cornerstone in the research fields of medi
 
 
 ## Unsupervised registration
-**Adrian to add**
+### [Unsupervised Registration][unsupervised_registration]
+
+[unsupervised_registration]: ./unsupervised
 
 
 ## Label-supervised registratopm
 ### [Weakly-supervised Registration][weakly_supervised_registration]
-** Yipeng to add lilnk to Kaggle?
-References:
-...
 
-[weakly_supervised_registration]: ./weakly/README.md
+[weakly_supervised_registration]: ./weakly
 
 
 ## Discrete deep learning registration
-**Mattias to add**
+### [Discrete Deep Registration][discrete_registration]
+
+[discrete_registration]: ./discrete

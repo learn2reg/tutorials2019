@@ -1,17 +1,35 @@
 # Weakly-supervised registration tutorial
 
-*Yipeng Hu
+Yipeng Hu
+
+## Tutorials
+There are two parts.
+### Training 
+[Notebook][notebook_training]
+[Kaggle][kaggle_train]
+### Inference
+[Notebook][notebook_inference]
+[Kaggle][kaggle_inference]
+
+[notebook_training]: ./tutorial_training.ipynb
+[notebook_inference]: ./tutorial_inference.ipynb
+
+[kaggle_train]: ./tutorial_training.ipynb
+[kaggle_inference]: ./tutorial_inference.ipynb
 
 
-There are two parts:
-Training [Notebook][Notebook_train][Kaggle][Kaggle_train]
+## Instructions for Kaggle enviroment settings:
+- to be validated
 
 
+## Instructions for Anaconda enviroment settings:
+### 1 - Install Anaconda
+[Download][anaconda_install]
 
-1 - install Anaconda
+[anaconda_install]:https://www.anaconda.com/distribution/
 
-2 - install tensorflow
-For Anaconda:
+### 2 - Install tensorflow
+In Anaconda Prompt, type:
 conda create -n tensorflow_env tensorflow
 conda activate tensorflow_env
 
@@ -20,11 +38,21 @@ or
 conda create -n tensorflow_gpuenv tensorflow-gpu
 conda activate tensorflow_gpuenv
 
-3 - install nibabel
+### 3 - Install nibabel
 conda install -c conda-forge nibabel
 
 
-4 - install notebook
+### 4 - Install notebook in tensorflow_env
 Use the Anaconda Navigator:
 Change the enviroment to tensorflow_env (or tensorflow_gpuenv)
-Then click
+Click to install Jupyter Notebook
+
+
+### 5 - Open the notebook
+In Anaconda Navigator, click to launch the notebook
+
+or 
+
+In Anaconda Prompt, type:
+conda activate tensorflow_env
+jupyter notebook
