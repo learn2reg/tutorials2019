@@ -8,7 +8,7 @@ def warp_image_affine(vol, theta):
 def warp_grid(grid, theta):
     # grid=grid_reference
     num_batch = int(theta.get_shape()[0])
-    theta = tf.cast(tf.reshape(theta, (-1, 3, 4)), 'float32')
+    theta = tf.cast(tf.reshape(theta, (-1, 3, 4)), dtype=tf.float32)
     size = grid.get_shape().as_list()
     grid = tf.concat([tf.transpose(tf.reshape(grid, [-1, 3])), tf.ones([1, size[0]*size[1]*size[2]])], axis=0)
     grid = tf.reshape(tf.tile(tf.reshape(grid, [-1]), [num_batch]), [num_batch, 4, -1])
@@ -53,19 +53,19 @@ def resample_linear(inputs, sample_coords):
 
 
 def get_reference_grid(grid_size):
-    return tf.to_float(tf.stack(tf.meshgrid(
+    return tf.cast(tf.stack(tf.meshgrid(
         [i for i in range(grid_size[0])],
         [j for j in range(grid_size[1])],
         [k for k in range(grid_size[2])],
-        indexing='ij'), axis=3))
+        indexing='ij'), axis=3), dtype=tf.float32)
 
 
 def compute_binary_dice(input1, input2):
     mask1 = input1 >= 0.5
     mask2 = input2 >= 0.5
-    vol1 = tf.reduce_sum(tf.to_float(mask1), axis=[1, 2, 3, 4])
-    vol2 = tf.reduce_sum(tf.to_float(mask2), axis=[1, 2, 3, 4])
-    dice = tf.reduce_sum(tf.to_float(mask1 & mask2), axis=[1, 2, 3, 4])*2 / (vol1+vol2)
+    vol1 = tf.reduce_sum(tf.cast(mask1, dtype=tf.float32), axis=[1, 2, 3, 4])
+    vol2 = tf.reduce_sum(tf.cast(mask2, dtype=tf.float32), axis=[1, 2, 3, 4])
+    dice = tf.reduce_sum(tf.cast(mask1 & mask2, dtype=tf.float32), axis=[1, 2, 3, 4])*2 / (vol1+vol2)
     return dice
 
 

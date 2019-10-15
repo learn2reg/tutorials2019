@@ -1,4 +1,5 @@
 import tensorflow as tf
+# from tensorflow.contrib import layers as contrib_layers  # for furture release
 
 
 # variables
