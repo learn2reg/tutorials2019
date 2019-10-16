@@ -36,18 +36,18 @@ conda activate tensorflow_gpuenv
 ```
 
 ### 3 - Install nibabel
+```
 conda install -c conda-forge nibabel
-
+```
 
 ### 4 - Install notebook in tensorflow_env
-Use the Anaconda Navigator: <\br>
-Change the enviroment to tensorflow_env (or tensorflow_gpuenv); <\br>
+Use the Anaconda Navigator:  
+Change the enviroment to tensorflow_env (or tensorflow_gpuenv);  
 Click to install Jupyter Notebook.
 
 
 ### 5 - Open the notebook
-In Anaconda Navigator, click to launch the notebook. <\br>
-or <\br>
+In Anaconda Navigator, click to launch the notebook. Or,  
 In Anaconda Prompt, type:
 ```
 conda activate tensorflow_env
