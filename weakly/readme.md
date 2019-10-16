@@ -5,21 +5,16 @@ Yipeng Hu
 ## Tutorials
 There are two parts.
 ### Training 
-[Notebook][notebook_training]
-[Kaggle][kaggle_train]
-### Inference
-[Notebook][notebook_inference]
-[Kaggle][kaggle_inference]
+on [Notebook][notebook_training]
+### Inference 
+on [Notebook][notebook_inference]
+### The porject 
+on [Azure][azure]
+
+[azure]: https://notebooks.azure.com/yipeng-hu/projects/learn2reg-tutorials-weakly
 
 [notebook_training]: ./tutorial_training.ipynb
 [notebook_inference]: ./tutorial_inference.ipynb
-
-[kaggle_train]: ./tutorial_training.ipynb
-[kaggle_inference]: ./tutorial_inference.ipynb
-
-
-## Instructions for Kaggle enviroment settings:
-- to be validated
 
 
 ## Instructions for Anaconda enviroment settings:
