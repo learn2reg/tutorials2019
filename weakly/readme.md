@@ -25,13 +25,15 @@ on [Azure][azure]
 
 ### 2 - Install tensorflow
 In Anaconda Prompt, type:
+```
 conda create -n tensorflow_env tensorflow
 conda activate tensorflow_env
-
+```
 or 
-
+```
 conda create -n tensorflow_gpuenv tensorflow-gpu
 conda activate tensorflow_gpuenv
+```
 
 ### 3 - Install nibabel
 conda install -c conda-forge nibabel
@@ -39,7 +41,7 @@ conda install -c conda-forge nibabel
 
 ### 4 - Install notebook in tensorflow_env
 Use the Anaconda Navigator:
-Change the enviroment to tensorflow_env (or tensorflow_gpuenv)
+Change the enviroment to tensorflow_env (or tensorflow_gpuenv) <br\>
 Click to install Jupyter Notebook
 
 
@@ -49,5 +51,7 @@ In Anaconda Navigator, click to launch the notebook
 or 
 
 In Anaconda Prompt, type:
+```
 conda activate tensorflow_env
 jupyter notebook
+```
