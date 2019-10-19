@@ -1,8 +1,9 @@
 # Learn2Reg 2019: Tutorial on Deep Learning in Medical Image Registration
 
 
+The [tutorial presentation slides][slides201910] on 17th October 2019 have kindly been provided by the speakers.  
 
-
+[slides201910]: ./slides/2019-10-17
 
 ## Unsupervised registration
 ### [Unsupervised Registration][unsupervised_registration]
