@@ -6,9 +6,9 @@ Yipeng Hu
 The complete tutorial can be run on [Azure][azure]. 
 
 ## Local version
-If you would like to run locally, there are two parts: 
-Training on [Notebook][notebook_training]
-Inference on [Notebook][notebook_inference] 
+If you would like to run locally, there are two parts, 
+the Training on [Notebook][notebook_training] and 
+the Inference on [Notebook][notebook_inference].
 
 
 [azure]: https://notebooks.azure.com/yipeng-hu/projects/learn2reg-tutorials-weakly
@@ -56,4 +56,5 @@ jupyter notebook
 
 ## Original version
 This tutorial was adapted from the demo code on [GitHub][github_demo].
-[github_demo]:https://github.com/YipengHu/label-reg
+
+[github_demo]: https://github.com/YipengHu/label-reg
