@@ -5,20 +5,17 @@ The [tutorial presentation slides][slides201910] on 17th October 2019 have kindl
 
 [slides201910]: ./slides
 
-## Unsupervised registration
-### [Unsupervised Registration][unsupervised_registration]
+## [Unsupervised Registration][unsupervised_registration]
 
 [unsupervised_registration]: ./unsupervised
 
 
-## Label-supervised registration
-### [Weakly-supervised Registration][weakly_supervised_registration]
+## [Weakly-supervised Registration][weakly_supervised_registration]
 
 [weakly_supervised_registration]: ./weakly
 
 
-## Discrete deep learning registration
-### [Discrete Deep Registration][discrete_registration]
+## [Discrete Deep Registration][discrete_registration]
 
 [discrete_registration]: ./discrete
 
